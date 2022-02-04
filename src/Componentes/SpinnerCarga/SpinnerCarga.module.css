@@ -1,0 +1,14 @@
+.Spinnercarga{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.Spinning{
+    
+    animation: spinner 1s linear infinite;
+}
+@keyframes spinner {
+    to{
+        transform: rotate(360 deg);
+    }
+}

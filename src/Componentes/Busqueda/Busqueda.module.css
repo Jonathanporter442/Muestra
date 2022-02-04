@@ -1,0 +1,31 @@
+.ContenedorForm{
+display: flex;
+justify-content: center;
+}
+.CajaBusqueda{
+    position: relative;
+
+}
+.InputBusqueda{
+    font-size: 1.5rem;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px 50px 5px 10px;
+    border: 1px solid white;
+}
+.Boton{
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 100%;
+    border: none;
+    background: none;
+}
+.InputBusqueda:focus, .Boton:focus{
+    outline: none;
+    border: 1px solid rgb(192, 69, 110);
+    box-shadow: o o 5px rgb(216, 68, 75);
+}

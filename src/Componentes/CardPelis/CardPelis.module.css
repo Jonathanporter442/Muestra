@@ -1,0 +1,19 @@
+.PeliCard{
+   list-style: none;
+   font-size: 1.5rem;
+   text-align: center;
+}
+.PeliCard:hover{
+    opacity: 0.7;
+}
+.PeliImagen{
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+@media (max-width: 560px) {
+    .PeliImagen{
+       width: 90%;
+       height: auto;
+    }
+}
